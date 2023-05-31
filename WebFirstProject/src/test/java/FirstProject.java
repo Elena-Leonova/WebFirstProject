@@ -12,7 +12,7 @@ public class FirstProject {
         wd.navigate().to("https://www.google.com/");
         wd.findElement(By.name("q")).sendKeys("Webdriver"+ Keys.ENTER);
         wd.navigate().back();
-        wd.findElement(By.name("q")).sendKeys("Webdriver"+ Keys.ENTER);
-        wd.findElement(By.name("q")).sendKeys("Tickets to Belarus"+ Keys.ENTER);
+        wd.findElement(By.name("q")).sendKeys("Tickets"+ Keys.ENTER);
+
     }
 }
