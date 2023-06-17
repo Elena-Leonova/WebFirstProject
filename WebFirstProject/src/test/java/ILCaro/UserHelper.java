@@ -18,6 +18,7 @@ public class UserHelper extends HelperBase{
     }
 
     public void clickSubmit() {
+
         click(By.xpath("//button[@type='submit']"));
     }
 }
